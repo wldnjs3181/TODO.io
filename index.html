@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ToDo</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="js-watch">
+        <h1>00:00:00</h1>
+    </div>
+
+    <form class="js-inputName form">
+        <input type="text" placeholder="이름을 입력해주세요">
+    </form>
+    <h4 class="js-gretting greetings"></h4>
+
+    <form id="js-toDoForm">
+        <input type="text" placeholder="무엇을 해야하나요?">
+    </form>
+
+
+    <div>
+        <h3>할일목록</h3>
+        <ul id="js-pending"></ul>
+    </div>
+
+    <div>
+        <h3>완료목록</h3>
+        <ul id="js-finished"></ul>
+    </div>
+    <span class="js-weather"></span>
+    <script src="index.js"></script>
+    <script src="todo.js"></script>
+    <script src="watch.js"></script>
+    <script src="name.js"></script>
+    <script src="weather.js"></script>
+    <script src="bg.js"></script>
+</body>
+
+</html>
